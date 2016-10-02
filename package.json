@@ -1,0 +1,19 @@
+{
+  "name": "fsto2016",
+  "version": "1.0.0",
+  "description": "Demo for starting automated testing with Karma, Jasmine and Phantom JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loawingr/fsto2016.git"
+  },
+  "author": "Richard Loa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loawingr/fsto2016/issues"
+  },
+  "homepage": "https://github.com/loawingr/fsto2016"
+}
