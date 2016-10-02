@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/loawingr/fsto2016/issues"
   },
-  "homepage": "https://github.com/loawingr/fsto2016"
+  "homepage": "https://github.com/loawingr/fsto2016",
+  "devDependencies": {
+    "karma": "^1.3.0"
+  }
 }
