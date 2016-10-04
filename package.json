@@ -4,7 +4,7 @@
   "description": "Demo for starting automated testing with Karma, Jasmine and Phantom JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "test": "karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
