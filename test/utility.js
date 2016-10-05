@@ -1,6 +1,11 @@
 describe("The utility method", function() {
     it("isOdd", function() {
         expect(window.util.isOdd("Richard")).toBeNull();
+        expect(window.util.isOdd({})).toBeNull();
+        expect(window.util.isOdd([])).toBeNull();
+        expect(window.util.isOdd(-5)).toBe(true);
+        expect(window.util.isOdd(-2)).toBe(false);
+        expect(window.util.isOdd(0)).toBe(false);
         expect(window.util.isOdd(1)).toBe(true);
         expect(window.util.isOdd(8)).toBe(false);
     });
