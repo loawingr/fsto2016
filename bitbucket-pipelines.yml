@@ -5,4 +5,4 @@ pipelines:
         script:
           - npm version
           - npm install
-          - karma start --single-run --browsers PhantomJS
+          - ./node_modules/.bin/karma start --single-run --browsers PhantomJS
